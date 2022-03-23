@@ -3,7 +3,7 @@ package segment
 import (
 	"fmt"
 
-	"github.com/npillmayer/uax"
+	"github.com/gioui/uax"
 )
 
 // This is an adaption of an elegant queue data structure by

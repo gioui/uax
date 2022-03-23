@@ -41,7 +41,7 @@ import (
 
 	"os"
 
-	"github.com/npillmayer/uax/internal/ucdparse"
+	"github.com/gioui/uax/internal/ucdparse"
 )
 
 var logger = log.New(os.Stderr, "UTS#51 generator: ", log.LstdFlags)

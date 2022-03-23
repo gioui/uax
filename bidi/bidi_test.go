@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/npillmayer/uax/internal/tracing"
+	"github.com/gioui/uax/internal/tracing"
 	"golang.org/x/text/unicode/bidi"
 )
 

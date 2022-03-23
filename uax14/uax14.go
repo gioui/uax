@@ -61,8 +61,8 @@ import (
 	"sync"
 	"unicode"
 
-	"github.com/npillmayer/uax"
-	"github.com/npillmayer/uax/internal/tracing"
+	"github.com/gioui/uax"
+	"github.com/gioui/uax/internal/tracing"
 )
 
 const (

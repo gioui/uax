@@ -6,8 +6,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/npillmayer/uax/bidi/trie"
-	"github.com/npillmayer/uax/internal/tracing"
+	"github.com/gioui/uax/bidi/trie"
+	"github.com/gioui/uax/internal/tracing"
 	"golang.org/x/text/unicode/bidi"
 )
 

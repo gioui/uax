@@ -4,10 +4,10 @@ import (
 	"unicode/utf8"
 
 	jj "github.com/cloudfoundry/jibber_jabber"
-	"github.com/npillmayer/uax"
-	"github.com/npillmayer/uax/emoji"
-	"github.com/npillmayer/uax/grapheme"
-	"github.com/npillmayer/uax/internal/tracing"
+	"github.com/gioui/uax"
+	"github.com/gioui/uax/emoji"
+	"github.com/gioui/uax/grapheme"
+	"github.com/gioui/uax/internal/tracing"
 	"golang.org/x/text/language"
 	"golang.org/x/text/width"
 )

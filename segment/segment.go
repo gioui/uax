@@ -54,8 +54,8 @@ import (
 	"math"
 	"strings"
 
-	"github.com/npillmayer/uax"
-	"github.com/npillmayer/uax/internal/tracing"
+	"github.com/gioui/uax"
+	"github.com/gioui/uax/internal/tracing"
 )
 
 // ErrBoundReached is returned from BoundedNext() if the reason for returning false

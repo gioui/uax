@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/npillmayer/uax/internal/tracing"
+	"github.com/gioui/uax/internal/tracing"
 )
 
 // BD16MaxNesting is the maximum stack depth for rule BS16 as defined in UAX#9.

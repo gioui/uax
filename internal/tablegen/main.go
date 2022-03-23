@@ -54,7 +54,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/npillmayer/uax/internal/ucdparse"
+	"github.com/gioui/uax/internal/ucdparse"
 )
 
 var prefix = flag.String("x", "", "prefix to categories, used for table naming")

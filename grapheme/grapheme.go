@@ -39,9 +39,9 @@ import (
 	"sync"
 	"unicode"
 
-	"github.com/npillmayer/uax"
-	"github.com/npillmayer/uax/emoji"
-	"github.com/npillmayer/uax/internal/tracing"
+	"github.com/gioui/uax"
+	"github.com/gioui/uax/emoji"
+	"github.com/gioui/uax/internal/tracing"
 )
 
 // ClassForRune gets the line grapheme class for a Unicode code-point.
