@@ -4,7 +4,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/npillmayer/uax/internal/tracing"
+	"github.com/gioui/uax/internal/tracing"
 )
 
 func TestRuneReader(t *testing.T) {

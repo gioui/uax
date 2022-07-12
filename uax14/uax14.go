@@ -55,8 +55,8 @@ import (
 	"math"
 	"unicode"
 
-	"github.com/npillmayer/uax"
-	"github.com/npillmayer/uax/internal/tracing"
+	"github.com/gioui/uax"
+	"github.com/gioui/uax/internal/tracing"
 )
 
 //go:generate go run ../internal/classgen -u LineBreak.txt

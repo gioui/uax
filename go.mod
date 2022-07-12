@@ -1,4 +1,4 @@
-module github.com/npillmayer/uax
+module github.com/gioui/uax
 
 go 1.17
 

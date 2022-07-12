@@ -3,9 +3,9 @@ package uax11
 import (
 	"unicode/utf8"
 
-	"github.com/npillmayer/uax"
-	"github.com/npillmayer/uax/emoji"
-	"github.com/npillmayer/uax/grapheme"
+	"github.com/gioui/uax"
+	"github.com/gioui/uax/emoji"
+	"github.com/gioui/uax/grapheme"
 	"golang.org/x/text/language"
 	"golang.org/x/text/width"
 )

@@ -5,11 +5,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/npillmayer/uax/internal/testdata"
-	"github.com/npillmayer/uax/internal/tracing"
-	"github.com/npillmayer/uax/internal/ucdparse"
-	"github.com/npillmayer/uax/segment"
-	"github.com/npillmayer/uax/uax29"
+	"github.com/gioui/uax/internal/testdata"
+	"github.com/gioui/uax/internal/tracing"
+	"github.com/gioui/uax/internal/ucdparse"
+	"github.com/gioui/uax/segment"
+	"github.com/gioui/uax/uax29"
 )
 
 func ExampleWordBreaker() {

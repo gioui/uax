@@ -42,9 +42,9 @@ package uax29
 import (
 	"unicode"
 
-	"github.com/npillmayer/uax"
-	"github.com/npillmayer/uax/emoji"
-	"github.com/npillmayer/uax/internal/tracing"
+	"github.com/gioui/uax"
+	"github.com/gioui/uax/emoji"
+	"github.com/gioui/uax/internal/tracing"
 )
 
 //go:generate go run ../internal/classgen -u auxiliary/WordBreakProperty.txt

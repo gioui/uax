@@ -8,9 +8,9 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/npillmayer/uax/internal/testdata"
-	"github.com/npillmayer/uax/internal/tracing"
-	"github.com/npillmayer/uax/segment"
+	"github.com/gioui/uax/internal/testdata"
+	"github.com/gioui/uax/internal/tracing"
+	"github.com/gioui/uax/segment"
 )
 
 func TestGraphemeClasses(t *testing.T) {

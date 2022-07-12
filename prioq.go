@@ -3,7 +3,7 @@ package uax
 import (
 	"fmt"
 
-	"github.com/npillmayer/uax/internal/tracing"
+	"github.com/gioui/uax/internal/tracing"
 )
 
 // DefaultRunePublisher is a type to organize RuneSubscribers.

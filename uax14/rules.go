@@ -1,6 +1,6 @@
 package uax14
 
-import "github.com/npillmayer/uax"
+import "github.com/gioui/uax"
 
 /*
 BSD License

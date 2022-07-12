@@ -3,7 +3,7 @@ package trie
 import (
 	"testing"
 
-	"github.com/npillmayer/uax/internal/tracing"
+	"github.com/gioui/uax/internal/tracing"
 )
 
 func TestEnterSimple(t *testing.T) {

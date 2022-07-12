@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/npillmayer/uax/internal/testdata"
-	"github.com/npillmayer/uax/internal/ucdparse"
+	"github.com/gioui/uax/internal/testdata"
+	"github.com/gioui/uax/internal/ucdparse"
 )
 
 func main() {

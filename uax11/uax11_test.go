@@ -4,8 +4,8 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	"github.com/npillmayer/uax/grapheme"
-	"github.com/npillmayer/uax/internal/tracing"
+	"github.com/gioui/uax/grapheme"
+	"github.com/gioui/uax/internal/tracing"
 	"golang.org/x/text/width"
 )
 

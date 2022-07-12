@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/npillmayer/uax/internal/tracing"
+	"github.com/gioui/uax/internal/tracing"
 )
 
 // UnicodeBreaker represents a logic to split up

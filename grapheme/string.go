@@ -6,9 +6,9 @@ import (
 	"math"
 	"unicode/utf8"
 
-	"github.com/npillmayer/uax"
-	"github.com/npillmayer/uax/internal/tracing"
-	"github.com/npillmayer/uax/segment"
+	"github.com/gioui/uax"
+	"github.com/gioui/uax/internal/tracing"
+	"github.com/gioui/uax/segment"
 )
 
 // String is a type to represent a graheme string, i.e. a sequence of
