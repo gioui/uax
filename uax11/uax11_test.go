@@ -4,7 +4,6 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	"github.com/gioui/uax/emoji"
 	"github.com/gioui/uax/grapheme"
 	"github.com/gioui/uax/internal/tracing"
 	"golang.org/x/text/width"
@@ -31,21 +30,9 @@ func TestTables(t *testing.T) {
 }
 */
 
-func TestEnvLocale(t *testing.T) {
-	tracing.SetTestingLog(t)
-	//
-	ctx := ContextFromEnvironment()
-	if ctx == nil {
-		t.Fatalf("context from environment is nil, should not")
-	}
-	t.Logf("user environment has locale '%s'", ctx.Locale)
-	//t.Fail()
-}
-
 func TestWidth(t *testing.T) {
 	tracing.SetTestingLog(t)
 	//
-	emoji.SetupEmojisClasses()
 	chars := [...]rune{
 		'A',    // LATIN CAPITAL LETTER A           => Na
 		0x05BD, // HEBREW POINT METEG               => N
@@ -72,8 +59,7 @@ func TestWidth(t *testing.T) {
 
 func TestContext(t *testing.T) {
 	tracing.SetTestingLog(t)
-	//
-	grapheme.SetupGraphemeClasses()
+
 	//context := &Context{Locale: "zh-uig"}
 	context := &Context{Locale: "zh-HK"}
 	_ = Width([]byte("世"), context)
@@ -83,8 +69,7 @@ func TestContext(t *testing.T) {
 
 func TestString(t *testing.T) {
 	tracing.SetTestingLog(t)
-	//
-	grapheme.SetupGraphemeClasses()
+
 	input := "A (世). "
 	buf := make([]byte, 10)
 	len := utf8.EncodeRune(buf, 0x1f600)
@@ -101,8 +86,7 @@ func TestString(t *testing.T) {
 
 func TestScripts(t *testing.T) {
 	tracing.SetTestingLog(t)
-	//
-	grapheme.SetupGraphemeClasses()
+
 	input := []struct {
 		S    string
 		N, W int

@@ -5,6 +5,7 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/gioui/uax/internal/testdata"
 	"github.com/gioui/uax/internal/tracing"
 	"github.com/gioui/uax/internal/ucdparse"
 	"github.com/gioui/uax/segment"
@@ -65,7 +66,13 @@ func TestWordBreakTestFile(t *testing.T) {
 	onWordBreak := uax29.NewWordBreaker(1)
 	seg := segment.NewSegmenter(onWordBreak)
 	//seg.BreakOnZero(true, false)
-	tf := ucdparse.OpenTestFile("./WordBreakTest.txt", t)
+
+	file, err := testdata.UCDReader("auxiliary/WordBreakTest.txt")
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	tf := ucdparse.OpenTestReader(file)
 	defer tf.Close()
 	failcnt, i, from, to := 0, 0, 1, 1900
 	for tf.Scan() {
